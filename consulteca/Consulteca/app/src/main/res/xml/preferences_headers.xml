@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:fragment="org.grameenfoundation.consulteca.settings.SettingsActivity$GeneralFragment"
+            android:title="@string/setting_general"
+            android:summary="@string/setting_general_summary"/>
+    <header android:fragment="org.grameenfoundation.consulteca.settings.SettingsActivity$ConnectionFragment"
+            android:title="@string/setting_connection"
+            android:summary="@string/summary_connection"/>
+    <header android:fragment="org.grameenfoundation.consulteca.settings.SettingsActivity$BackgroundSynchronization"
+            android:title="@string/background_synchronization"
+            android:summary="@string/background_synchronization_summary"/>
+</preference-headers>

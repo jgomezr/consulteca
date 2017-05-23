@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="background_sync_interval_units">
+        <item>hora</item>
+        <item>minuto</item>
+        <item>segundo</item>
+    </string-array>
+    <string-array name="drawer_items">
+        <item>Defecto</item>
+        <item>Favorito</item>
+        <item>Búsquedas recientes</item>
+        <item>contenido interactivo</item>
+    </string-array>
+</resources>

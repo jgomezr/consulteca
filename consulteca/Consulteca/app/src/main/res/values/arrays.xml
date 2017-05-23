@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="background_sync_interval_units">
+        <item>Hour(s)</item>
+        <item>Minute(s)</item>
+        <item>Second(s)</item>
+    </string-array>
+    <string-array name="background_sync_interval_units_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="drawer_items">
+        <item>Default</item>
+        <item>Favourite</item>
+        <item>Recent Searches</item>
+        <item>Interactive Content</item>
+    </string-array>
+</resources>

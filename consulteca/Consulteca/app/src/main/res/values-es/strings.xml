@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CKW Search</string>
+    <string name="app_version_about">Versión</string>
+    <string name="hello">Hola gfsearch!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="hello_world">Hola mundo!</string>
+    <string name="action_about">acerca de</string>
+    <string name="action_help">ayudar</string>
+    <string name="settingSummary">Preferencias de la aplicación</string>
+    <string name="synchronization_progress_bar_title">Sincronización</string>
+    <string name="error_title">error !</string>
+    <string name="country_code_download_msg">Descarga de código de país espera por favor...</string>
+    <string name="upload_search_logs_download_msg">Carga de los registros de búsqueda por favor espere...</string>
+    <string name="keyword_download_msg">Descarga de palabras clave por favor espere...</string>
+    <string name="farmer_download_msg">Descarga de los agricultores por favor espere...</string>
+    <string name="synchronization_complete_msg">sincronización completa.</string>
+    <string name="processing_keywords_msg">Procesamiento de Palabras clave</string>
+    <string name="removing_keywords_msg">Extracción Antiguo Palabras clave</string>
+    <string name="downloading_images_msg">descarga de imágenes</string>
+    <string name="error_downloading_keywords">Palabras clave de descarga de error</string>
+    <string name="error_processing_keywords">Palabras clave de proceso de errores</string>
+    <string name="error_downloading_farmers">Error al descargar los agricultores</string>
+    <string name="error_processing_farmers">Los agricultores de proceso de errores</string>
+    <string name="error_connecting_to_server">Ha ocurrido un error al comunicarse con el servidor.
+                 Por favor verifica la configuracion de conexión.
+    </string>
+
+    <!-- Connection strings-->
+    <string name="server_url">http://andesgf.force.com/consulteca/SearchGetRequest</string>
+    <string name="title_server_url">URL del servidor</string>
+    <string name="summary_server_url">La url del servidor al sincronizar con.</string>
+    <string name="setting_connection">conexión</string>
+    <string name="summary_connection">Conexión Ajustes relacionados</string>
+    <string name="connection_preferences">conexión</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_new_search">Nueva búsqueda</string>
+    <string name="farmer_id_text">Farmer Id</string>
+    <string name="recent_searches">Búsquedas recientes</string>
+    <string name="favourite_searches">Búsquedas favoritas</string>
+    <string name="synchronise">sincronizar</string>
+    <string name="country_code_server_url_path">search/getCountryCode</string>
+    <string name="keyword_server_url_path">search/getsearchkeywords</string>
+    <string name="image_server_url_path">search/getsfimages?imageId=</string>
+    <string name="action_back">espalda</string>
+    <string name="action_forward">adelante</string>
+    <string name="sample_text">sample text</string>
+    <string name="background_synchronization">sincronización en segundo plano</string>
+    <string name="background_synchronization_summary">sincronización en segundo plano. Los ajustes se establecen en referencia a la fecha actual</string>
+    <string name="background_sync_interval_summary">Determina la frecuencia con la sincronización de fondo se llevará a cabo.
+    </string>
+    <string name="background_sync_interval_title">Antecedentes de sincronización de intervalo</string>
+    <string name="background_sync_enabled_title">Activar sincronización en segundo plano</string>
+    <string name="background_sync_enabled_summary">Activa / desactiva la sincronización en segundo plano</string>
+    <string name="background_sync_interval_units_title">Unidades de Intervalo</string>
+    <string name="background_sync_interval_units_summary">Las unidades de tiempo para el intervalo de sincronización</string>
+    <string name="send_message">Enviar mensaje</string>
+    <string name="share_using">Mandar mensaje</string>
+    <string name="setting_general">general</string>
+    <string name="prompt_for_clientid_title">Preguntar por el identificador de cliente</string>
+    <string name="prompt_for_clientid_summary">Habilitar el impulso del identificador de la persona que está sirviendo
+    </string>
+    <string name="setting_general_summary">Configuración general</string>
+    <string name="clientid_dialog_message">Escriba el identificador de cliente</string>
+    <string name="clientid_dialog_title">Client identificador del sistema</string>
+    <string name="missing_client_id">Falta identificador de cliente</string>
+    <string name="mark_favourite">Favorito</string>
+    <string name="drawer_open">Abierto</string>
+    <string name="drawer_close">cerrar</string>
+    <string name="action_delete">borrar</string>
+    <string name="test_searching_enabled_title">Habilitar Prueba búsqueda</string>
+    <string name="test_searching_enabled_summary">Los registros de búsqueda serán marcados como los registros de prueba</string>
+    <string name="uploading_search_logs">Carga de los registros de búsqueda</string>
+    <string name="ok">Ok</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/background_synchronization"
+                        android:summary="@string/background_synchronization">
+
+        <CheckBoxPreference android:key="background_sync_enabled"
+                            android:title="@string/background_sync_enabled_title"
+                            android:summary="@string/background_sync_enabled_summary"
+                            android:defaultValue="true"/>
+
+        <EditTextPreference
+                android:key="background_sync_interval"
+                android:title="@string/background_sync_interval_title"
+                android:summary="@string/background_sync_interval_summary"
+                android:dialogTitle="@string/background_sync_interval"
+                android:defaultValue="@string/background_sync_interval"
+                android:inputType="number"
+                android:dependency="background_sync_enabled"/>
+
+        <ListPreference android:key="background_sync_interval_units"
+                        android:title="@string/background_sync_interval_units_title"
+                        android:summary="@string/background_sync_interval_units_summary"
+                        android:entries="@array/background_sync_interval_units"
+                        android:entryValues="@array/background_sync_interval_units_values"
+                        android:dialogTitle="@string/background_sync_interval_units_title"
+                        android:defaultValue="@string/background_sync_interval_unit_default"
+                        android:dependency="background_sync_enabled"
+                />
+    </PreferenceCategory>
+</PreferenceScreen>

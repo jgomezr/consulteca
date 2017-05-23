@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CKW Search</string>
+    <string name="app_version_about">Version</string>
+    <string name="hello">Bonjour ckw search!</string>
+    <string name="action_settings">réglages</string>
+    <string name="hello_world">Bonjour tout le monde!</string>
+    <string name="action_about">sur</string>
+    <string name="action_help">Aide</string>
+    <string name="settingSummary">Préférences de l\'application</string>
+    <string name="synchronization_progress_bar_title">synchronisation</string>
+    <string name="error_title">erreur !</string>
+    <string name="country_code_download_msg">Downloading CountryCode please wait...</string>
+    <string name="upload_search_logs_download_msg">Téléchargement de journaux de recherche please wait...</string>
+    <string name="keyword_download_msg">Téléchargement de mots-clés please wait...</string>
+    <string name="farmer_download_msg">Téléchargement agriculteurs se il vous plaît patienter...</string>
+    <string name="synchronization_complete_msg">synchronisation complète.</string>
+    <string name="processing_keywords_msg">traitement clés</string>
+    <string name="removing_keywords_msg">Suppression d\'anciens Mots clés</string>
+    <string name="downloading_images_msg">Téléchargement d\'images</string>
+    <string name="error_downloading_keywords">Erreur lors du téléchargement des mots-clés</string>
+    <string name="error_processing_keywords">Mots-clés de traitement des erreurs</string>
+    <string name="error_downloading_farmers">Agriculteurs d\'erreur de téléchargement</string>
+    <string name="error_processing_farmers">Agriculteurs de traitement des erreurs</string>
+    <string name="error_connecting_to_server">Une erreur s\'est produite lors de la communication avec le serveur.
+                 S\'il vous plaît vérifier vos paramètres de connexion.
+    </string>
+
+    <!-- Connection strings-->
+    <string name="server_url">https://grameenfoundation.secure.force.com/ckwsearch/SearchGetRequest</string>
+    <string name="title_server_url">URL du serveur</string>
+    <string name="summary_server_url">L\'URL du serveur de synchronisation avec.</string>
+    <string name="setting_connection">lien</string>
+    <string name="summary_connection">Paramètres de connexion associées</string>
+    <string name="connection_preferences">lien</string>
+    <string name="action_search">Rechercher</string>
+    <string name="action_new_search">nouvelle recherche</string>
+    <string name="farmer_id_text">Id Farmer</string>
+    <string name="recent_searches">recherches récentes</string>
+    <string name="favourite_searches">recherches favorites</string>
+    <string name="synchronise">synchroniser</string>
+    <string name="country_code_server_url_path">search/getCountryCode</string>
+    <string name="keyword_server_url_path">search/getsearchkeywords</string>
+    <string name="image_server_url_path">search/getsfimages?imageId=</string>
+    <string name="action_back">Retour</string>
+    <string name="action_forward">vers l\'avant</string>
+    <string name="sample_text">sample text</string>
+    <string name="background_synchronization">Synchronisation en arrière</string>
+    <string name="background_synchronization_summary">Synchronisation en arrière. Les paramètres sont définis en référence à la date du jour</string>
+    <string name="background_sync_interval_summary">Détermine la fréquence de la synchronisation de fond aura lieu
+    </string>
+    <string name="background_sync_interval_title">Contexte synchronisation Intervalle</string>
+    <string name="background_sync_enabled_title">Activer la synchronisation d\'arrière-plan</string>
+    <string name="background_sync_enabled_summary">Pour activer / désactiver la synchronisation en arrière</string>
+    <string name="background_sync_interval_units_title">Unités d\'intervalle</string>
+    <string name="background_sync_interval_units_summary">Les unités de temps pour l\'intervalle de synchronisation</string>
+    <string name="send_message">Envoyer un message</string>
+    <string name="share_using">Envoyer un message avec</string>
+    <string name="setting_general">général</string>
+    <string name="prompt_for_clientid_title">Invite pour l\'identification du client</string>
+    <string name="prompt_for_clientid_summary">Activer l\'impulsion de l\'identifiant de la personne que vous servez
+    </string>
+    <string name="setting_general_summary">Paramètres généraux</string>
+    <string name="clientid_dialog_message">Entrez l\'identificateur du client</string>
+    <string name="clientid_dialog_title">Identifier demander au client</string>
+    <string name="missing_client_id">Manquant l\'identification du client</string>
+    <string name="mark_favourite">Favourite</string>
+    <string name="drawer_open">Ouvert</string>
+    <string name="drawer_close">proche</string>
+    <string name="action_delete">supprimer</string>
+    <string name="test_searching_enabled_title">Activer test recherche</string>
+    <string name="test_searching_enabled_summary">Recherche logs seront marqués comme protocoles de test</string>
+    <string name="uploading_search_logs">Téléchargement de journaux de recherche</string>
+    <string name="ok">Ok</string>
+
+</resources>

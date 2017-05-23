@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/action_nav_back"
+            android:orderInCategory="100" android:showAsAction="always"
+            android:title="@string/action_back" android:icon="@drawable/navigation_back"
+            android:visible="true"/>
+
+</menu>

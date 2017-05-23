@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.grameenfoundation.consulteca" >
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="15"/>
+
+    <application android:allowBackup="true"  android:icon="@drawable/mobile_app_icon" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:launchMode="singleTop" android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/action_settings" android:name=".settings.SettingsActivity"  android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="org.grameenfoundation.consulteca.settings.SettingsActivity"/>
+                <category android:name="android.intent.category.PREFERENCE"/>
+            </intent-filter>
+
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.grameenfoundation.consulteca.MainActivity"/>
+        </activity>
+        <activity android:icon="@drawable/action_about" android:name=".ui.AboutActivity" android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.grameenfoundation.consulteca.MainActivity"/>
+        </activity>
+        <activity android:icon="@drawable/collections_view_as_list" android:name=".ui.SearchMenuItemActivity" android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.grameenfoundation.consulteca.MainActivity"/>
+        </activity>
+        <activity android:icon="@drawable/mobile_app_icon" android:name=".ui.ImageViewerActivity" android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.grameenfoundation.consulteca.MainActivity"/>
+        </activity>
+        <activity android:icon="@drawable/mobile_app_icon" android:name=".interactivecontent.ContentViewerActivity" android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.grameenfoundation.consulteca.MainActivity"/>
+        </activity>
+        <service android:name=".synchronization.BackgroundSynchronizationService"/>
+
+        <receiver android:name=".synchronization.SynchBroadcastReceiver">
+            <intent-filter>
+                <action android:name="org.grameenfoundation.consulteca.synchronization.BACKGROUND_SYNC"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".synchronization.BackgroundSynchronizationConfigurer">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="org.grameenfoundation.consulteca.synchronization.BACKGROUND_SYNC_CONFIGURATION"/>
+                <action android:name="org.grameenfoundation.consulteca.settings.SETTINGS_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:host="package" android:path="org.grameenfoundation.consulteca"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <!-- Application Permissions-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>
